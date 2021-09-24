@@ -39,7 +39,7 @@ LOCAL_PRIVATE_PLATFORM_APIS := true
 
 LOCAL_OVERRIDES_PACKAGES := Gallery Gallery3D GalleryNew3D
 
-LOCAL_AAPT_FLAGS += --rename-manifest-package com.android.gallery3d
+LOCAL_AAPT_FLAGS += --rename-manifest-package com.google.android.apps.photos
 
 LOCAL_JNI_SHARED_LIBRARIES := \
     libjni_gallery_eglfence \
