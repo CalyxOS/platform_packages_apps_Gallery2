@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "abaf2906_27219967",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-06-21T16:09:42Z",
+      "side": 1,
+      "message": "Chain will be pulled from upstream when ready, click \"Lineage\" next to Change-Id to see",
+      "revId": "b2bcb529430a04dc863b736564be54332fec4ae5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
