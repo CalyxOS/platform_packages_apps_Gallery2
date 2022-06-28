@@ -4,8 +4,8 @@ package {
 }
 
 cc_library_shared {
-    name: "libjni_gallery_jpegstream",
-    system_ext_specific: true,
+    name: "libjni_jpegstream",
+    product_specific: true,
 
     static_libs: ["libjpeg_static_ndk"],
     shared_libs: ["liblog"],

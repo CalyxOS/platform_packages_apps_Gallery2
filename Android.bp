@@ -25,12 +25,7 @@ android_app {
 
     resource_dirs: ["res"],
 
-    privileged: true,
-    certificate: "platform",
-
-    system_ext_specific: true,
-
-    platform_apis: true,
+    product_specific: true,
 
     overrides: [
         "Gallery",
@@ -38,17 +33,19 @@ android_app {
         "GalleryNew3D",
     ],
 
+    sdk_version: "current",
+
     jni_libs: [
-        "libjni_gallery_eglfence",
-        "libjni_gallery_filters",
-        "libjni_gallery_jpegstream",
+        "libjni_eglfence",
+        "libjni_filtershow_filters",
+        "libjni_jpegstream",
     ],
 
     optimize: {
         proguard_flags_files: ["proguard.flags"],
     },
 
-    libs: ["telephony-common"] + ["org.apache.http.legacy"],
+    libs: ["org.apache.http.legacy"],
 
     optional_uses_libs: ["com.google.android.media.effects"],
 
