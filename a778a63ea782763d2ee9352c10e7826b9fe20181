@@ -16,6 +16,23 @@
       "message": "Let\u0027s see what gerrit does with 11398: Drop privileged app and platform sig | https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Gallery2/+/11398",
       "revId": "a778a63ea782763d2ee9352c10e7826b9fe20181",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53df7bf0_c6e2b34c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-06-29T16:12:55Z",
+      "side": 1,
+      "message": "Seems to work fine, no regression on FP4 sdcard",
+      "revId": "a778a63ea782763d2ee9352c10e7826b9fe20181",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
