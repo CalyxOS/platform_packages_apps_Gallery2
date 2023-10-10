@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b981d9d_a09c43fc",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-10T00:41:10Z",
+      "side": 1,
+      "message": "Did they, though?\n\nNope: https://android.googlesource.com/platform/packages/apps/Gallery2/+log/refs/tags/android-14.0.0_r1/src/com/android/gallery3d/data/MtpClient.java",
+      "revId": "6d569469a61066b9b9892df1eef2930efdc0d474",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
