@@ -16,6 +16,23 @@
       "message": "Not sure if this is the best way but I feel not",
       "revId": "880811a2ad2f3ac2101579dcafe23607a6ce3fc4",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "758858bc_0d13cfda",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-11-15T16:23:00Z",
+      "side": 1,
+      "message": "Maybe a simple check of userId would be good",
+      "revId": "880811a2ad2f3ac2101579dcafe23607a6ce3fc4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
