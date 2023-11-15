@@ -690,7 +690,15 @@ public class SaveImage {
      * @return The file object. Return null if srcUri is invalid or not a local
      * file.
      */
-    public static File getLocalFileFromUri(Context context, Uri srcUri) {
+    public static File getLocalFileFromUri(Context context, Uri orgUri) {
+
+        Uri srcUri;
+        if (uriHasUserId(orgUri)) {
+            srcUri = getUriWithoutUserId(orgUri);
+        } else {
+            srcUri = orgUri;
+        }
+
         if (srcUri == null) {
             Log.e(LOGTAG, "srcUri is null.");
             return null;
@@ -913,5 +921,23 @@ public class SaveImage {
             canvas.drawBitmap(bitmap, null, destRect, paint);
         }
         return underlay;
+    }
+
+    private static String getAuthorityWithoutUserId(String auth) {
+        if (auth == null) return null;
+        int end = auth.lastIndexOf('@');
+        return auth.substring(end+1);
+    }
+
+    private static Uri getUriWithoutUserId(Uri uri) {
+        if (uri == null) return null;
+        Uri.Builder builder = uri.buildUpon();
+        builder.authority(getAuthorityWithoutUserId(uri.getAuthority()));
+        return builder.build();
+    }
+
+    private static boolean uriHasUserId(Uri uri) {
+        if (uri == null) return false;
+        return !TextUtils.isEmpty(uri.getUserInfo());
     }
 }
