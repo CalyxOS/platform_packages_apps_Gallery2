@@ -59,6 +59,30 @@
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4bfdb548_382fa1e6",
+        "filename": "src/com/android/gallery3d/filtershow/tools/SaveImage.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 938,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-16T22:38:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "09593d44_2b5a469b",
+      "range": {
+        "startLine": 935,
+        "startChar": 0,
+        "endLine": 938,
+        "endChar": 67
+      },
+      "revId": "b4576cc29051232d7ea5b9abbad8c72b868107bb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fb40867d_d6a5230c",
@@ -72,6 +96,30 @@
       "writtenOn": "2023-11-16T22:17:25Z",
       "side": 1,
       "message": "Usually what we would want is `UserHandle.of` which takes a userId instead of a uid, but it\u0027s not public.\n\nThis is kind of tricky... Since the userId is not itself a uid, if we provide this with e.g. 10, for userId 10, we\u0027re really asking it to get a UserHandle for an app with uid 10, and so it just returns a UserHandle for 0 all the time. That\u0027s why this is only working with the owner user (user 0). I only noticed by adding some extra logging.\n\nI\u0027m not even sure what we could do about that. One thing could be to copy `UserHandle.PER_UID_RANGE` (which isn\u0027t public either), multiply by that, and subtract 1, to get a made-up uid that\u0027s within range for a particular user.\n\nSeems like there should be something simpler...",
+      "range": {
+        "startLine": 940,
+        "startChar": 30,
+        "endLine": 940,
+        "endChar": 49
+      },
+      "revId": "b4576cc29051232d7ea5b9abbad8c72b868107bb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "979724ae_d3eb6db8",
+        "filename": "src/com/android/gallery3d/filtershow/tools/SaveImage.java",
+        "patchSetId": 5
+      },
+      "lineNbr": 940,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-16T22:38:14Z",
+      "side": 1,
+      "message": "Not subtract 1, I was having an off-by-one error in my head...",
+      "parentUuid": "fb40867d_d6a5230c",
       "range": {
         "startLine": 940,
         "startChar": 30,
