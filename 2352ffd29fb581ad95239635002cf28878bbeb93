@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "482b51aa_f2c0f706",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2023-11-16T11:38:23Z",
+      "side": 1,
+      "message": "Sent to Lineage",
+      "revId": "2352ffd29fb581ad95239635002cf28878bbeb93",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
