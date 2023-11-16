@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9baf47b6_85b61361",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-16T21:52:32Z",
+      "side": 1,
+      "message": "This is working for me in the owner user, but sadly it\u0027s not working in work profiles or secondary users (same error as before, there). Overall it\u0027s better than before, where it didn\u0027t work anywhere!",
+      "revId": "b4576cc29051232d7ea5b9abbad8c72b868107bb",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
