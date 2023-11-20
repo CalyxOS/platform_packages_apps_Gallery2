@@ -34,6 +34,24 @@
       "parentUuid": "999628a7_cf9a825f",
       "revId": "64c8f05b40c8a9cebd631cc3887c9c3db526c0f5",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e6380a4_0d3ba65f",
+        "filename": "src/com/android/gallery3d/filtershow/tools/SaveImage.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 950,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-20T16:18:38Z",
+      "side": 1,
+      "message": "Done, sorry for the quick +1/-1s, just didn\u0027t think about this until now.",
+      "parentUuid": "c5951f1c_37753d92",
+      "revId": "64c8f05b40c8a9cebd631cc3887c9c3db526c0f5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
