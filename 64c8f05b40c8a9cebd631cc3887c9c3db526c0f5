@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "999628a7_cf9a825f",
+        "filename": "src/com/android/gallery3d/filtershow/tools/SaveImage.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 950,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2023-11-20T16:08:26Z",
+      "side": 1,
+      "message": "I decided to take a look at how getUserInfo does this, and it operates on the encoded authority, but getAuthority gives us the decoded authority. It\u0027s unlikely, but there may be some trickiness possible if the encoded authority is e.g. `10@com.something%40.somethingelse` (where %40 is equivalent to @). In that case, getUserInfo would return 10, but this code would return 10@com.something.\n\nIf I\u0027m reading and understanding this right, it should be enough to just operate on the encoded authority here. I can check.\n\nI wish the Builder allowed us to modify userInfo directly, but sadly it doesn\u0027t.",
+      "revId": "64c8f05b40c8a9cebd631cc3887c9c3db526c0f5",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
