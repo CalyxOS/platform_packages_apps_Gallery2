@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a15c3d97_3991837b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-01-02T15:07:35Z",
+      "side": 1,
+      "message": "Fixes problem pointed out here: https://review.lineageos.org/c/LineageOS/android_packages_apps_Gallery2/+/378638\n\n(Should ultimately have no visible impact at all.)",
+      "revId": "1dfaa50584cfd6058fc85b837ff65a389dbcff22",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
