@@ -23,6 +23,42 @@
   <init>(...);
 }
 
+-keep class * extends com.android.gallery3d.filtershow.filters.FilterBasicRepresentation {
+  <init>(...);
+}
+
+-keep class * extends com.android.gallery3d.filtershow.filters.FilterDualCamBasicRepresentation {
+  <init>(...);
+}
+
+-keep class * extends com.android.gallery3d.filtershow.filters.FilterPointRepresentation {
+  <init>(...);
+}
+
+-keep class * extends com.android.gallery3d.filtershow.filters.FilterRepresentation {
+  <init>(...);
+}
+
+-keep class * extends com.android.gallery3d.filtershow.filters.ImageFilter {
+  <init>(...);
+}
+
+-keep class * extends com.android.gallery3d.filtershow.filters.ImageFilterTruePortrait {
+  <init>(...);
+}
+
+-keep class * extends com.android.gallery3d.filtershow.filters.SimpleImageFilter {
+  <init>(...);
+}
+
+-keep class * extends com.android.gallery3d.filtershow.filters.SimpleMakeupImageFilter {
+  <init>(...);
+}
+
+-keep class * extends com.android.gallery3d.filtershow.filters.TrueScannerActs {
+  <init>(...);
+}
+
 -keep class com.android.camera.CameraActivity {
   public boolean isRecording();
   public long getAutoFocusTime();
