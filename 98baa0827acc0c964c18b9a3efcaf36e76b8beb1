@@ -16,6 +16,23 @@
       "message": "Noticed this during an unrelated build: `Warning: Module \u0027Gallery2Editor\u0027 depends on non-existing optional_uses_libs \u0027com.google.android.media.effects\u0027`",
       "revId": "98baa0827acc0c964c18b9a3efcaf36e76b8beb1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b8fbd9ec_2973f68a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-07T19:02:53Z",
+      "side": 1,
+      "message": "Somehow had Gallery2 still in Recents: https://gitlab.com/CalyxOS/calyxos/-/work_items/2335",
+      "revId": "98baa0827acc0c964c18b9a3efcaf36e76b8beb1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
