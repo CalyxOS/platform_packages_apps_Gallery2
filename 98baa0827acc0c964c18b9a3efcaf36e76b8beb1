@@ -68,6 +68,24 @@
       "message": "Glimpse overrides Gallery2. What does it mean for this to override Gallery2, too? Is it needed?",
       "revId": "98baa0827acc0c964c18b9a3efcaf36e76b8beb1",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a55f8311_c6bd5346",
+        "filename": "Android.bp",
+        "patchSetId": 5
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-05-22T12:03:28Z",
+      "side": 1,
+      "message": "Just in case there\u0027s a Gallery2 somewhere. We want the Editor to override the Gallery2 since given they share the same pacakge name and can\u0027t co-exist.\n\nGlimpse overrides it since it\u0027s the replacement.\n\n\nPractically this shouldn\u0027t do anything.",
+      "parentUuid": "0c6ed1a7_3a1993b0",
+      "revId": "98baa0827acc0c964c18b9a3efcaf36e76b8beb1",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
