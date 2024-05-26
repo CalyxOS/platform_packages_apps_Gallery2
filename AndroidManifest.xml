@@ -142,6 +142,8 @@
         </activity>
         <activity android:name="com.android.gallery3d.app.TrimVideo"
                 android:exported="true"
+                android:excludeFromRecents="true"
+                android:noHistory="true"
                 android:label="@string/trim_label"
                 android:theme="@style/Theme.MovieActivity"
                 android:configChanges="keyboardHidden|orientation|screenSize">
@@ -170,6 +172,8 @@
             android:name="com.android.gallery3d.filtershow.FilterShowActivity"
             android:theme="@style/Theme.FilterShow"
             android:exported="true"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
             android:configChanges="keyboardHidden|orientation|screenSize|locale|layoutDirection">
             <intent-filter>
                 <action android:name="android.intent.action.EDIT" />
@@ -187,6 +191,8 @@
             android:name="com.android.gallery3d.filtershow.crop.CropActivity"
             android:label="@string/crop"
             android:theme="@style/Theme.Crop"
+            android:excludeFromRecents="true"
+            android:noHistory="true"
             android:exported="true"
             android:configChanges="keyboardHidden|orientation|screenSize|fontScale">
            <intent-filter android:label="@string/crop_label">
