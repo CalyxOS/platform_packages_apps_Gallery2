@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aee24e3e_ce2ab0fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-28T19:49:20Z",
+      "side": 1,
+      "message": "In the past, I think I have sometimes seen stale editors in Recents that don\u0027t even work anymore, showing a blank image or something - if I remember right. Is that what this fixes, or if not, what\u0027s the purpose of this change?",
+      "revId": "3fc43514aaa2d547da194501cbee8472b883a2e6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
