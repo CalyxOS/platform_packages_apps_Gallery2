@@ -34,6 +34,24 @@
       "parentUuid": "aee24e3e_ce2ab0fc",
       "revId": "3fc43514aaa2d547da194501cbee8472b883a2e6",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "346e5718_6d5bc048",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-29T12:14:27Z",
+      "side": 1,
+      "message": "Gotcha, I see. What I was seeing (and able to access) in Recents was the old main Gallery main screen, though, with its timeline, etc. I will double check though.",
+      "parentUuid": "80816957_fd5f1c8b",
+      "revId": "3fc43514aaa2d547da194501cbee8472b883a2e6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
