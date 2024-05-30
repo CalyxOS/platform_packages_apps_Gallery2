@@ -52,6 +52,24 @@
       "parentUuid": "80816957_fd5f1c8b",
       "revId": "3fc43514aaa2d547da194501cbee8472b883a2e6",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4142869b_64b65e67",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-30T13:26:58Z",
+      "side": 1,
+      "message": "Yes, GalleryActivity is still present, but if we set `enabled\u003d\"false\"` for it, it won\u0027t be. I think the parent change could be a good place to make that change.\n\nIt turns out that the blank image issue I described would happen with Gallery2 when you would tap on a screenshot (to view, not edit), then leave that screen and come back. I can\u0027t reproduce it with the edit feature.\n\nSo, I\u0027d prefer not to exclude these from recents, since it leads to unnecessary anxiety. For example, what if you\u0027re not done editing a photo but want to check an email that just came in? Excluding from recents means you can\u0027t go back, but going back works just fine and shouldn\u0027t cause problems.",
+      "parentUuid": "346e5718_6d5bc048",
+      "revId": "3fc43514aaa2d547da194501cbee8472b883a2e6",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
