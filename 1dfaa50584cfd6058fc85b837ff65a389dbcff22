@@ -16,6 +16,23 @@
       "message": "Fixes problem pointed out here: https://review.lineageos.org/c/LineageOS/android_packages_apps_Gallery2/+/378638\n\n(Should ultimately have no visible impact at all.)",
       "revId": "1dfaa50584cfd6058fc85b837ff65a389dbcff22",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bce081e4_7337b569",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-30T11:10:12Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_packages_apps_Gallery2/commit/b2c1689bbac846425abc95d47b6b32c46bc196a1",
+      "revId": "1dfaa50584cfd6058fc85b837ff65a389dbcff22",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
