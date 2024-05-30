@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb30de10_eb745b57",
+        "filename": "AndroidManifest.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-05-30T13:47:08Z",
+      "side": 1,
+      "message": "I never even realized this feature existed... Anyway, looks like it would allow you to choose between MTP Host and Gallery when tapping the notification for a connected PTP or MTP device, and import the photos/videos found. It was kind of broken; there\u0027d be no import button until you tried to select something, which would act like everything was already selected and you were deselecting something...\n\nNot important. I was just checking to make sure we didn\u0027t have a crash or something by disabling it.",
+      "revId": "792f4780cb25874025e8d87146351c51464c0f24",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
