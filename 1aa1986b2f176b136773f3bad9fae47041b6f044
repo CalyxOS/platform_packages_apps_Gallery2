@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b97ecf98_82105fb7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000065
+      },
+      "writtenOn": "2024-06-20T11:45:12Z",
+      "side": 1,
+      "message": "Not needed with Glimpse, abandon?",
+      "revId": "1aa1986b2f176b136773f3bad9fae47041b6f044",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
