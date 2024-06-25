@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11e9c1a1_065a4dd0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-06-25T14:23:15Z",
+      "side": 1,
+      "message": "Identical to 27065: Merge remote-tracking branch \u0027lineage/lineage-21.0\u0027 into staging/android14_merge-lineage-21.0 | https://review.calyxos.org/c/CalyxOS/platform_packages_apps_Gallery2/+/27065\n\nI changed the topic since if it was merged as-is, we wouldn\u0027t have a working Gallery",
+      "revId": "8cb050153ff47509e73e6744278dcf473f0c7473",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
