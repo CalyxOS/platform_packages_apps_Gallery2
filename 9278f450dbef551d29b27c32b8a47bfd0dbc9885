@@ -16,6 +16,24 @@
       "message": "```suggestion\n    \u003cstring name\u003d\"editor_app_name\"\u003eMedia Editor\u003c/string\u003e\n```\n\nOr possibly Image Editor if it only works for images? (I don\u0027t know.)",
       "revId": "9278f450dbef551d29b27c32b8a47bfd0dbc9885",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d20f22f7_8a4883aa",
+        "filename": "res/values/calyx_strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-07-17T21:04:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "99d0669c_c8917f15",
+      "revId": "9278f450dbef551d29b27c32b8a47bfd0dbc9885",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
